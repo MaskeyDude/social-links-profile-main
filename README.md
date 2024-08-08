@@ -28,9 +28,11 @@ Make it as close to this as possible! I think it's cool yay!
 ### Screenshot
 
 Desktop Version
+
 ![](./desktop.png)
 
 Mobile Version
+
 ![](./mobile.png)
 
 ### Links
