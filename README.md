@@ -28,10 +28,10 @@ Make it as close to this as possible! I think it's cool yay!
 ### Screenshot
 
 Desktop Version
-![](./desktop.png.jpg)
+![](./desktop.png)
 
 Mobile Version
-![](./mobile.png.jpg)
+![](./mobile.png)
 
 ### Links
 
