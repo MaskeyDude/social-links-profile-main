@@ -23,26 +23,39 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+
 body {
     font-family: Inter;
     background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    padding: 7.2em 0;
+    min-height: 100vh;
 }
 
 container {
     max-width: 28em;
     height: auto;
     display: grid;
-    grid-gap: 1.26em;
+    grid-gap: 1em;
     grid-template-columns: 1fr;
-    margin: 1em auto;
+    margin: 0 auto;
     padding: 2.6em;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 0.8em;
     color: white;
     background-color: hsl(0, 0%, 12%);
 }
 
-@media query {
+container img {
+    width: 30%;
+    border-radius: 100%;
+    margin: 0 auto;
 }
 
 p {
@@ -62,9 +75,11 @@ p {
 
 .social-links {
     text-decoration: none;
+    font-size: 14px;
     font-weight: 700;
-    padding: 1em;
-    border-radius: 7px;
+    margin: 0 0.4em;
+    padding: 1em 0;
+    border-radius: 0.5em;
     color: white;
     background-color: hsl(0, 0%, 20%);
 }
@@ -76,13 +91,14 @@ p {
     transition: 0.4s;
 }
 
+/* footer */
 
 .attribution {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 0;
-    padding: 1em;
+    padding: 0em 0.4em 0.8em 0.4em;
     background-color: black;
     font-weight: normal;
 }
@@ -117,4 +133,25 @@ a {
 
 .mela a:hover {
     color: rgb(82, 82, 179);
+}
+
+@media (max-width: 650px) {
+    container {
+        width: 88%;
+        padding: 1.1em;
+    }
+
+    .social-links {}
+
+    .attribution {
+        display: block;
+        padding: 0.1em 0 0 0;
+    }
+
+    .frontendmentor,
+    .mela {
+        margin: 0.4em;
+        text-align: center;
+        padding: 3%;
+    }
 }
