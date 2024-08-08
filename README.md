@@ -21,12 +21,17 @@ Uh...
 
 ### The challenge
 
-Make it as close to this as possible! I think it's cool yay! [Social links profile] (https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
+Make it as close to this as possible! I think it's cool yay!
+
+<a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub">Social links profile</a>
 
 ### Screenshot
 
-![Desktop Version](./desktop.png.jpg)
-![Mobile Version](./mobile.png.jpg)
+Desktop Version
+![](./desktop.png.jpg)
+
+Mobile Version
+![](./mobile.png.jpg)
 
 ### Links
 
