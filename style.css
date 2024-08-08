@@ -1,0 +1,120 @@
+/* fontos! */
+
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+
+    font-family: Inter-Bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+
+    font-family: Inter-SemiBold;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+/* stylying starts */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: hsl(0, 0%, 8%);
+}
+
+container {
+    max-width: 28em;
+    height: auto;
+    display: grid;
+    grid-gap: 1.26em;
+    grid-template-columns: 1fr;
+    margin: 1em auto;
+    padding: 2.6em;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+}
+
+@media query {
+}
+
+p {
+    font-size: 14px;
+    margin: 1em 0 0 0;
+
+}
+
+.whereabouts {
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+}
+
+.quote {
+    margin: 0.6em;
+}
+
+.social-links {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1em;
+    border-radius: 7px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+}
+
+
+.social-links:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.4s;
+}
+
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 1em;
+    background-color: black;
+    font-weight: normal;
+}
+
+.attribution,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.frontendmentor {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1.7%;
+    color: rgb(82, 82, 179);
+    border-radius: 3px;
+    border: 2px dashed rgb(82, 82, 179);
+}
+
+.frontendmentor a:hover {
+    color: blueviolet;
+}
+
+.mela {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 1.7%;
+    color: blueviolet;
+    border-radius: 3px;
+    border: 2px dashed blueviolet;
+}
+
+.mela a:hover {
+    color: rgb(82, 82, 179);
+}
